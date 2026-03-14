@@ -1,6 +1,7 @@
 # Cloudflare Pages 部署配置
 name = "image-bg-remover"
 compatibility_date = "2025-03-14"
+account_id = "8e64fb9711c018b3abf02fbbd1fb8a3"
 
 # 构建配置
 [build]

@@ -50,18 +50,18 @@
 
 ---
 
-## 🔐 配置 GitHub Secrets（可选，用于自动部署）
+## 🔐 配置 GitHub Secrets
 
-如果你想用 GitHub Actions 自动部署，需要在 GitHub 仓库设置中添加 Secrets：
+在 GitHub 仓库中添加以下 Secrets：
 
-1. 进入 GitHub 仓库 → **Settings** → **Secrets and variables** → **Actions**
-2. 点击 **New repository secret**，添加以下：
+**路径**: GitHub 仓库 → Settings → Secrets and variables → Actions → New repository secret
 
 | Secret 名称 | 值 |
 |-------------|-----|
-| `CLOUDFLARE_API_TOKEN` | 68e64fb9711c018b3abf02fbbd1fb8a3 |
-| `CLOUDFLARE_ACCOUNT_ID` | O2kBmpyA2-A3nuCsxdjquro6kt6pHdzXz3bLbIxy |
-| `REMOVE_BG_API_KEY` | FDaK17Pikx9DD6e8RfyTD8xU |
+| `CLOUDFLARE_API_TOKEN` | `O2kBmpyA2-A3nuCsxdjquro6kt6pHdzXz3bLbIxy` |
+| `REMOVE_BG_API_KEY` | `FDaK17Pikx9DD6e8RfyTD8xU` |
+
+> Account ID (`8e64fb9711c018b3abf02fbbd1fb8a3`) 已硬编码在配置文件中，无需设置 Secret。
 
 ---
 

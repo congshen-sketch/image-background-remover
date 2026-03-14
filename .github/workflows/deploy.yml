@@ -35,7 +35,7 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: 8e64fb9711c018b3abf02fbbd1fb8a3
           projectName: image-bg-remover
           directory: dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
